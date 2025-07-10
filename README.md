@@ -39,8 +39,8 @@ go get github.com/octahori/gomfig@v0.1.0
 | Stage | Description |
 |-------|-------------|
 | ✓ JSON | Basic loader implementation + unit tests |
-| ☐ YAML | `yamlcfg` sub-package using `gopkg.in/yaml.v3` |
-| ☐ TOML | `tomlcfg` sub-package using `github.com/pelletier/go-toml/v2` |
+| ✓ YAML | YAML loader (`yamlcfg`, strict mode) |
+| ✓ TOML | TOML loader (`tomlcfg`) |
 | ☐ ENV  | Map environment variables into struct with tags |
 | ☐ Remote | Consul / etcd loaders |
 
