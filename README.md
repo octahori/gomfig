@@ -8,8 +8,8 @@ Light-weight, extensible Go library to load and merge configuration from multipl
 
 ## Features (current branch)
 
-* Decode JSON files/streams into arbitrary Go structs or maps.
-* Strict mode: unknown fields are rejected early (`json.Decoder.DisallowUnknownFields`).
+* Decode JSON, YAML, and TOML files/streams into arbitrary Go structs or maps.
+* Strict mode for all loaders: unknown fields are rejected early.
 * Minimal API:
 
 ```go
