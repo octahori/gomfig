@@ -1,9 +1,9 @@
 package gomfig
 
 import (
-    "io"
+	"io"
 
-    "github.com/octahori/gomfig/yamlcfg"
+	"github.com/octahori/gomfig/yamlcfg"
 )
 
 // YAMLLoader aliases yamlcfg.Loader for convenience.

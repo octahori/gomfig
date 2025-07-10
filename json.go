@@ -6,9 +6,9 @@ package gomfig
 // added in future branches.
 
 import (
-    "io"
+	"io"
 
-    "github.com/octahori/gomfig/jsoncfg"
+	"github.com/octahori/gomfig/jsoncfg"
 )
 
 // JSONLoader is kept for backwards-compatibility. It aliases jsoncfg.Loader.
