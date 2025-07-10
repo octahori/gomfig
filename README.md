@@ -8,8 +8,8 @@ Light-weight, extensible Go library to load and merge configuration from multipl
 
 ## Features (current branch)
 
-* Decode JSON files/streams into arbitrary Go structs or maps.
-* Strict mode: unknown fields are rejected early (`json.Decoder.DisallowUnknownFields`).
+* Decode JSON, YAML, and TOML files/streams into arbitrary Go structs or maps.
+* Strict mode for all loaders: unknown fields are rejected early.
 * Minimal API:
 
 ```go
@@ -39,8 +39,8 @@ go get github.com/octahori/gomfig@v0.1.0
 | Stage | Description |
 |-------|-------------|
 | ✓ JSON | Basic loader implementation + unit tests |
-| ☐ YAML | `yamlcfg` sub-package using `gopkg.in/yaml.v3` |
-| ☐ TOML | `tomlcfg` sub-package using `github.com/pelletier/go-toml/v2` |
+| ✓ YAML | YAML loader (`yamlcfg`, strict mode) |
+| ✓ TOML | TOML loader (`tomlcfg`) |
 | ☐ ENV  | Map environment variables into struct with tags |
 | ☐ Remote | Consul / etcd loaders |
 
