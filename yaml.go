@@ -3,7 +3,7 @@ package gomfig
 import (
     "io"
 
-    "gomfig/yamlcfg"
+    "github.com/octahori/gomfig/yamlcfg"
 )
 
 // YAMLLoader aliases yamlcfg.Loader for convenience.

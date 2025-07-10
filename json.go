@@ -8,7 +8,7 @@ package gomfig
 import (
     "io"
 
-    "gomfig/jsoncfg"
+    "github.com/octahori/gomfig/jsoncfg"
 )
 
 // JSONLoader is kept for backwards-compatibility. It aliases jsoncfg.Loader.
