@@ -1,9 +1,9 @@
 package gomfig
 
 import (
-    "io"
+	"io"
 
-    "github.com/octahori/gomfig/tomlcfg"
+	"github.com/octahori/gomfig/tomlcfg"
 )
 
 type TOMLLoader = tomlcfg.Loader
