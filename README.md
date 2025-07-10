@@ -1,8 +1,10 @@
-# gomfig
+# gomfig  ![Version](https://img.shields.io/github/v/tag/octahori/gomfig?label=version)
+
+> Current stable: **v0.1.0** (JSON only)
 
 Light-weight, extensible Go library to load and merge configuration from multiple sources.
 
-This **json-loader** branch focuses on JSON support only. Upcoming branches will add YAML, TOML, ENV, and remote back-ends (Consul, etcd, …).
+`gomfig` is released under semantic versioning. Version **v0.1.0** supports **JSON** configuration files. Upcoming minor versions will introduce YAML, TOML, ENV, and remote back-ends. Upcoming branches will add YAML, TOML, ENV, and remote back-ends (Consul, etcd, …).
 
 ## Features (current branch)
 
@@ -29,7 +31,7 @@ if err := gomfig.LoadJSONFile("config.json", &cfg); err != nil {
 ## Installation
 
 ```sh
-go get github.com/your-user/gomfig@latest
+go get github.com/octahori/gomfig@v0.1.0
 ```
 
 ## Roadmap
